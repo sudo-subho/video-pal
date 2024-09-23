@@ -59,9 +59,9 @@ const Navbar = () => {
           >
             Video <span>Pal</span>
           </a>
-
+          {/*
           <div className="dropdown dropdown-bottom">
-            {/* Button with fixed width */}
+            Button with fixed width 
             <div
               tabIndex={0}
               role="button"
@@ -77,7 +77,7 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* Dropdown menu with fixed width */}
+   
             <ul
               tabIndex={0}
               className="dropdown-content menu bg-base-100 rounded-box z-[1] w-48 p-2 shadow"
@@ -91,6 +91,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
+          */}
 
           <div className="dropdown dropdown-bottom relative">
             {/* Button that shows the selected country or 'Click' */}
